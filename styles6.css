@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.logo img {
+    height: 50px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: flex;
+    display: inline-flex;
+}
+
+nav .menu>li {
+    display: inline-block;
+    position: relative;
+    display: inline-flex;
+}
+
+nav .menu>li>a {
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav .menu>li:hover .submenu {
+    display: block;
+}
+
+nav .menu .submenu {
+    background-color: #444;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu .submenu li {
+    width: 200px;
+}
+
+nav .menu .submenu li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav .menu .submenu li a:hover {
+    background-color: #555;
+}
+
+.search-content {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.social-media .fa-instagram {
+    color: orangered;
+}
+
+.social-media .fa-facebook {
+    color: blue;
+}
+
+.social-media .fa-whatsapp {
+    color: rgb(12, 229, 12);
+}
+
+.social-media .fa-twitter {
+    color: skyblue;
+}
+
+.social-media .fa-youtube {
+    color: red;
+}
+
+.contact-options {
+    color: white;
+}
+
+.banner {
+    background: url('bg\ nature.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.banner p {
+    font-size: 24px;
+}
+
+.text h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
