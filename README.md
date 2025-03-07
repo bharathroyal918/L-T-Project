@@ -1,4 +1,4 @@
-# L-T-Project
+# L&T- mini Project 
 🌐 Responsive Website Template
 This is a modern, responsive website template built using HTML, CSS, Bootstrap, and FontAwesome icons. It includes a well-structured layout with multiple sections, making it perfect for showcasing services, photography, and artistic content.
 
